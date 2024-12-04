@@ -5,13 +5,13 @@ const Navigations = () => {
     <div className="navigations">
        <ul>
         <li>
-          <NavLink to="/">Acceuil</NavLink>
+          <NavLink to="/" className={(nav) => nav.isActive ? "nav" : ""}>Acceuil</NavLink>
         </li>
         <li>
-          <NavLink to="/about">A Propos</NavLink>
+          <NavLink className={(nav) => nav.isActive ? "nav" : ''} to="/about">A Propos</NavLink>
         </li>
         <li>
-          <NavLink to="/projects">Projets</NavLink>
+          <NavLink className={(nav) => nav.isActive ? "nav" : ''} to="/projects">Projets</NavLink>
         </li>
       </ul> 
       

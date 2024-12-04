@@ -1,6 +1,4 @@
 .navigations {
-  background-color: red;
-  // height: 12vh;
   padding: 20px 0;
 
   ul {
@@ -8,11 +6,10 @@
     justify-content: center;
     align-items: center;
 
-
     li {
       color: #fff;
       margin: 0 21px;
-      border-bottom: 2px solid cyan;
+      
     }
   }
 }
