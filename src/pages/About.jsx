@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='about'>
       <Navigations/>
-      
+      <h1>about page</h1>
     </div>
   );
 };
