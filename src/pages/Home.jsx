@@ -1,3 +1,4 @@
+import Icons from "../componants/Icons";
 import Navigations from "../componants/Navigations";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
         <h3>J'Suis un Web Developpeur</h3>
         
       </div>
+     <Icons/>
     </div>
   );
 };
