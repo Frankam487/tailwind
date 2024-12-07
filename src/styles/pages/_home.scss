@@ -1,4 +1,17 @@
 .home {
   background: $white;
   height: 88vh;
+
+  .home-container {
+
+    @include childCenter;
+    flex-direction: column;
+
+    img {
+      border-radius: 50%;
+      height: 100px;
+      width: 10%;
+      object-fit: cover;
+    }
+  }
 }

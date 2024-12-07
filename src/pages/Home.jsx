@@ -6,7 +6,7 @@ const Home = () => {
       <Navigations/>
       
       <div className="home-container">
-        <img src="" height="200" alt="" />
+        <img src="./w.jpg" alt="" />
         <h1>Salut , J'suis Frank_Kamgang</h1>
         <h3>J'Suis un Web Developpeur</h3>
         
