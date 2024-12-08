@@ -1,12 +1,11 @@
-import Navigations from "../componants/Navigations";
+import Navigations from '../componants/Navigations';
 
 const About = () => {
   return (
-    <div className='about'>
-      <Navigations/>
+    <div className="about">
+      <Navigations />
       <h1>about page</h1>
     </div>
-    
   );
 };
 

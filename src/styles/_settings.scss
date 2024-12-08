@@ -1,19 +1,25 @@
 $white: #ffffffb4;
+
 .nav {
   border-bottom: 2px solid rgba(12, 240, 240, 0.832);
 }
-li{
+
+li {
   list-style: none;
 }
+
 @mixin childCenter {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-a{
+
+a {
   color: #000;
   text-decoration: none;
 }
+
+
 body {
   min-height: 100vh;
   background: #ffffffec;
